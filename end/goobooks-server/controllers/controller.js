@@ -91,7 +91,7 @@ class Controller {
             let snap = new midtransClient.Snap({
                 // Set to true if you want Production Environment (accept real transaction).
                 isProduction: false,
-                serverKey: process.env.MIDTRANS_SERVER_KEY
+                serverKey: "SB-Mid-server-QYlwbcqsNuXCCh1Dl1z1lJE1"
             });
 
             const orderId = `trx-buy-${nanoid()}`

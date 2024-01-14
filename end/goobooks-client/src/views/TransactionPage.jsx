@@ -1,4 +1,3 @@
-import Card from "../components/Card";
 import axios from 'axios';
 import { useEffect, useState } from "react";
 import Swal from "sweetalert2";

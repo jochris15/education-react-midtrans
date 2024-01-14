@@ -84,7 +84,7 @@ class Controller {
 
     static async midtransToken(req, res, next) {
         try {
-
+            // bikin token untuk identifikasi order di midtrans
         } catch (err) {
             console.log(err);
             next(err)
